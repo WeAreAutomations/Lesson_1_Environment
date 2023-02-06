@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+
+<suite name="WPT">
+
+        <test name="Dex-Trade Regression">
+
+<!--            <parameter name="DriverName" value= "new FirefoxDriver()"/>-->
+<!--Browsers-->
+            <parameter name="preferredBrowser" value="Firefox"/>
+<!--            <parameter name="preferredBrowser" value="Chrome"/>-->
+<!--            Start and Home page-->
+            <parameter name="StartUrlLogin" value="https://dex-trade-stage1.intary.net/login"/>
+            <parameter name="StartUrSighnUp" value="https://dex-trade-stage1.intary.net/sign-up"/>
+
+<!--Authorization-->
+            <parameter name="Assert_Test_1" value="https://dex-trade-stage1.intary.net/"/>
+            <parameter name="Assert_Test_2" value="https://dex-trade-stage1.intary.net/login"/>
+
+<!--Registration-->
+            <parameter name="Reg_Assert_Test_1" value="https://dex-trade-stage1.intary.net/activate-account"/>
+            <parameter name="Reg_Assert_Test_2" value="https://dex-trade-stage1.intary.net/login"/>
+
+            <!--Header page-->
+            <parameter name="Markets_Pg_Url" value="https://dex-trade-stage1.intary.net/markets"/>
+            <parameter name="spotTrading_Pg_Url" value="https://dex-trade-stage1.intary.net/spot/trading/BTCUSDT"/>
+            <parameter name="DemoTrading_Pg_Url" value="https://dex-trade-stage1.intary.net/demo-trade"/>
+            <parameter name="quickExchange_Pg_Url" value="https://dex-trade-stage1.intary.net/quick-exchange"/>
+            <parameter name="Staking_Pg_Url" value="https://dex-trade-stage1.intary.net/staking"/>
+            <parameter name="ieo_Pg_Url" value="https://dex-trade-stage1.intary.net/ieo"/>
+            <parameter name="tournaments_Pg_Url" value="https://dex-trade-stage1.intary.net/tournaments"/>
+            <parameter name="FreeCoins_Pg_Url" value="https://dex-trade-stage1.intary.net/free-coins"/>
+            <parameter name="about_Pg_Url" value="https://dex-trade-stage1.intary.net/about"/>
+            <parameter name="blog_Pg_Url" value="https://dex-trade-stage1.intary.net/news/list/1"/>
+            <parameter name="referralProgram_Pg_Url" value="https://dex-trade-stage1.intary.net/account/referral"/>
+            <parameter name="listing_Pg_Url" value="https://dex-trade-stage1.intary.net/listing"/>
+            <parameter name="faq_Pg_Url" value="https://dex-trade-stage1.intary.net/support"/>
+            <parameter name="support_Pg_Url" value="https://dex-trade-stage1.intary.net/submit-a-request"/>
+            <parameter name="Wallet_Pg_Url" value="https://dex-trade-stage1.intary.net/wallet"/>
+            <parameter name="orders_Pg_Url" value="https://dex-trade-stage1.intary.net/open-orders/1"/>
+            <parameter name="MyProfile_Pg_Url" value="https://dex-trade-stage1.intary.net/account"/>
+            <parameter name="verification_Pg_Url" value="https://dex-trade-stage1.intary.net/account/verification/individual"/>
+            <parameter name="personal_data_Pg_Url" value="https://dex-trade-stage1.intary.net/account/manage-personal-data"/>
+            <parameter name="account_security_Pg_Url" value="https://dex-trade-stage1.intary.net/account/security"/>
+            <parameter name="account_referral_Pg_Url" value="https://dex-trade-stage1.intary.net/account/referral"/>
+            <parameter name="api_management_Pg_Url" value="https://dex-trade-stage1.intary.net/account/api-management"/>
+            <parameter name="api_management_Pg_Url" value="https://dex-trade-stage1.intary.net/account/api-management"/>
+            <parameter name="Rus_Pg_Url" value="https://dex-trade-stage1.intary.net/ru"/>
+            <parameter name="tr_Pg_Url" value="https://dex-trade-stage1.intary.net/tr"/>
+            <parameter name="esp_Pg_Url" value="https://dex-trade-stage1.intary.net/es"/>
+            <parameter name="chi_Pg_Url" value="https://dex-trade-stage1.intary.net/zh"/>
+            <parameter name="jap_Pg_Url" value="https://dex-trade-stage1.intary.net/ja"/>
+            <parameter name="hi_Pg_Url" value="https://dex-trade-stage1.intary.net/hi"/>
+
+            <!--Footer page-->
+            <parameter name="About_Pg_Url" value="https://dex-trade-stage1.intary.net/about"/>
+            <parameter name="PrivacyPolicy_Pg_Url" value="https://dex-trade-stage1.intary.net/info/privacy-policy"/>
+            <parameter name="News_Pg_Url" value="https://dex-trade-stage1.intary.net/news/list/1"/>
+            <parameter name="CurrenciesTokens_Pg_Url" value="https://dex-trade-stage1.intary.net/currencies-tokens"/>
+            <parameter name="Fees_Pg_Url" value="https://dex-trade-stage1.intary.net/fees"/>
+            <parameter name="CoinStatus_Pg_Url" value="https://dex-trade-stage1.intary.net/status-online"/>
+            <parameter name="DexTrade_coin_Pg_Url" value="https://dex-trade-stage1.intary.net/dxc"/>
+            <parameter name="Tournaments_Pg_Url" value="https://dex-trade-stage1.intary.net/tournaments"/>
+            <parameter name="Submit_request_Pg_Url" value="https://dex-trade-stage1.intary.net/submit-a-request"/>
+            <parameter name="Support_Pg_Url" value="https://dex-trade-stage1.intary.net/support"/>
+            <parameter name="PersonalData_Pg_Url" value="https://dex-trade-stage1.intary.net/account/manage-personal-data"/>
+            <parameter name="BugBounty_Pg_Url" value="https://hackenproof.com/dex-trade/dex-trade"/>
+            <parameter name="API_Documentation_Pg_Url" value="https://docs.dex-trade.com/"/>
+            <parameter name="Listing_Pg_Url" value="https://dex-trade-stage1.intary.net/listing"/>
+            <!--  Footer  Left Side-->
+            <parameter name="twitter_footer_Pg_Url" value="https://twitter.com/dextrade_"/>
+            <parameter name="linkedin_footer_Pg_Url" value="https://www.linkedin.com"/>
+            <parameter name="tg_channel_Pg_Url" value="https://t.me/Dex_Trade"/>
+            <parameter name="instagram_footer_Pg_Url" value="https://www.instagram.com/dextrade/"/>
+            <parameter name="facebook_footer_Pg_Url" value="https://www.facebook.com"/>
+            <parameter name="youtube_footer_Pg_Url" value="https://consent.youtube.com"/>
+            <parameter name="coinmarket_Pg_Url" value="https://coinmarketcap.com/exchanges/dex-trade/"/>
+            <parameter name="coingecko_Pg_Url" value="https://www.coingecko.com/en/exchanges/dextrade"/>
+            <parameter name="tiktok_Pg_Url" value="https://www.tiktok.com/@dex_trade_official"/>
+            <parameter name="facebook_btn_Pg_Url" value="https://www.facebook.com"/>
+            <parameter name="twitter_btn_Pg_Url" value="https://twitter.com"/>
+            <parameter name="telegramm_btn_Pg_Url" value="https://t.me/Dex_Trade_Group"/>
+
+
+
+        <classes>
+            <class name="Main_code.MainCode"/>
+
+            <class name="Header.Header_Tests"/>
+            <class name="Header.Profile_Tab.Profile_Tab_Tests"/>
+            <class name="Header.Trade_Tab.Trade_Tab_Tests"/>
+            <class name="Header.Products.Products_Tab_Tests"/>
+            <class name="Header.Company_Tab.Company_Tab_Tests"/>
+            <class name="Header.Language_Tab.Language_Tab_Tests"/>
+
+<!--            <class name="Footer.AboutUs_Tests"/>-->
+<!--            <class name="Footer.Services_Tests"/>-->
+<!--            <class name="Footer.Support_Tests"/>-->
+
+<!--            <class name="Footer.LeftSide.SocialMedia_Tests"/>-->
+<!--            <class name="Footer.LeftSide.SocialMedia_Part2_Tests"/>-->
+<!--            <class name="Footer.Language.Language_Tests"/>-->
+
+<!--            <class name="Authorization.Authorization_Tests"/>-->
+<!--            <class name="Registration.Registration_Tests"/>-->
+<!--            <class name="Registration.Registration_Tests_Prt_2"/>-->
+
+
+
+<!--            <class name="Market_page.Market_page"/>-->
+<!--            <class name="Tading_DropDown.TradingDropDown"/>-->
+<!--            <class name="Order_Book.Buy"/>-->
+<!--            <class name="Order_Book.Sell"/>-->
+<!--            <class name="Wallet.Wallet_Currency_List_Appearance"/>-->
+<!--            <class name="Wallet.Wallet_History_Form_Validation"/>-->
+
+        </classes>
+<!--            <method-selectors>-->
+<!--                <method-selector>-->
+<!--                    <selector-class name="Order_Book.Sell"/>-->
+<!--                </method-selector>-->
+<!--            </method-selectors>-->
+        </test>
+
+
+</suite>

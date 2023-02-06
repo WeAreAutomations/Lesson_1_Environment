@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+
+<suite name="WPT">
+
+        <test name="Wallet appearance">
+
+<!--            <parameter name="DriverName" value= "new FirefoxDriver()"/>-->
+<!--Browsers-->
+<!--            <parameter name="preferredBrowser" value="Firefox"/>-->
+            <parameter name="preferredBrowser" value="Chrome"/>
+<!--            Start and Home page-->
+            <parameter name="StartUrlLogin" value="https://dex-trade.com/login"/>
+            <parameter name="StartUrSighnUp" value="https://dex-trade.com/sign-up"/>
+
+ <!--Authorization-->
+
+            <parameter name="Assert_Test_1" value="https://dex-trade.com/"/>
+            <parameter name="Assert_Test_2" value="https://dex-trade.com/login"/>
+
+<!--Registration-->
+            <parameter name="Reg_Assert_Test_1" value="https://dex-trade.com/activate-account"/>
+            <parameter name="Reg_Assert_Test_2" value="https://dex-trade.com/login"/>
+
+            <!--Header page-->
+            <parameter name="Markets_Pg_Url" value="https://dex-trade.com/markets"/>
+            <parameter name="spotTrading_Pg_Url" value="https://dex-trade.com/spot/trading/BTCUSDT"/>
+            <parameter name="DemoTrading_Pg_Url" value="https://dex-trade.com/demo-trade"/>
+            <parameter name="quickExchange_Pg_Url" value="https://dex-trade.com/quick-exchange"/>
+            <parameter name="Staking_Pg_Url" value="https://dex-trade.com/staking"/>
+            <parameter name="ieo_Pg_Url" value="https://dex-trade.com/ieo"/>
+            <parameter name="tournaments_Pg_Url" value="https://dex-trade.com/tournaments"/>
+            <parameter name="FreeCoins_Pg_Url" value="https://dex-trade.com/free-coins"/>
+            <parameter name="about_Pg_Url" value="https://dex-trade.com/about"/>
+            <parameter name="blog_Pg_Url" value="https://dex-trade.com/news/list/1"/>
+            <parameter name="referralProgram_Pg_Url" value="https://dex-trade.com/account/referral"/>
+            <parameter name="listing_Pg_Url" value="https://dex-trade.com/listing"/>
+            <parameter name="faq_Pg_Url" value="https://dex-trade.com/support"/>
+            <parameter name="support_Pg_Url" value="https://dex-trade.com/submit-a-request"/>
+            <parameter name="Wallet_Pg_Url" value="https://dex-trade.com/wallet"/>
+            <parameter name="orders_Pg_Url" value="https://dex-trade.com/open-orders/1"/>
+            <parameter name="MyProfile_Pg_Url" value="https://dex-trade.com/account"/>
+            <parameter name="verification_Pg_Url" value="https://dex-trade.com/account/verification/individual"/>
+            <parameter name="personal_data_Pg_Url" value="https://dex-trade.com/account/manage-personal-data"/>
+            <parameter name="account_security_Pg_Url" value="https://dex-trade.com/account/security"/>
+            <parameter name="account_referral_Pg_Url" value="https://dex-trade.com/account/referral"/>
+            <parameter name="api_management_Pg_Url" value="https://dex-trade.com/account/api-management"/>
+            <parameter name="api_management_Pg_Url" value="https://dex-trade.com/account/api-management"/>
+            <parameter name="Rus_Pg_Url" value="https://dex-trade.com/ru"/>
+            <parameter name="tr_Pg_Url" value="https://dex-trade.com/tr"/>
+            <parameter name="esp_Pg_Url" value="https://dex-trade.com/es"/>
+            <parameter name="chi_Pg_Url" value="https://dex-trade.com/zh"/>
+            <parameter name="jap_Pg_Url" value="https://dex-trade.com/ja"/>
+            <parameter name="hi_Pg_Url" value="https://dex-trade.com/hi"/>
+
+<!--            Wallet Appearance-->
+<!--            <parameter name="StartUrl_case_5_1" value="https://coinzix-stage1.intary.net/wallet"/>-->
+<!--            <parameter name="StartUrl_case_7" value="https://coinzix-stage1.intary.net/wallet/history"/>-->
+<!--            <parameter name="Wallet_Tab_address" value="//a[contains(text(),'Portofel')]"/>-->
+<!--            <parameter name="exp_hov_bckgrd_clr" value="#000000"/>-->
+<!--            <parameter name="Hide_zero_blnc" value="//span[contains(text(),'Ascunde balantele zero')]"/>-->
+<!--            <parameter name="Wallet_History" value="//span[contains(text(),'Istoric')]"/>-->
+<!--            <parameter name="Exchange" value="//div[@id='anchor-BTC']//button[contains(text(),'Schimb')]"/>-->
+
+<!--//main/div/div/div[2]/div[2]/div/div[2]/div[1]/div[1]/div[8]/button/span-->
+<!--            Wallet - History page-->
+<!--            <parameter name="HdrAll" value="//button[contains(text(),'Tot istoricul')]"/>-->
+<!--            <parameter name="HdrWithdraw" value="//button[contains(text(),'Istoric retrageri')]"/>-->
+<!--            <parameter name="HdrDeposit" value="//button[contains(text(),'Istoric Depozitare')]"/>-->
+<!--            <parameter name="HdrOrders" value="//button[contains(text(),'Comenzi')]"/>-->
+<!--            <parameter name="Languge" value="//a[@href='/ro/wallet/history']"/>-->
+<!--            <parameter name="Details" value="//main/div/div/div[2]/div[2]/div/div[2]/div[1]/div[1]/div[8]/button/span"/>-->
+<!--&lt;!&ndash;            <parameter name="Details" value="(//div[@class='tr balance-table-grid'])[1]//span[contains(text(),'Detalii')]"/>&ndash;&gt;-->
+<!--            <parameter name="AdrBtn" value="//label[contains(text(),'Adresă:')]"/>-->
+<!--            <parameter name="AdrAssert" value="Adresă:"/>-->
+
+<!--            <groups>-->
+<!--                <run>-->
+<!--                    -->
+<!--                    <include name="mainCode"/>-->
+
+<!--                    <include name="tradingDropDown"/>-->
+<!--                    <include name="buy"/>-->
+<!--                    <include name="sell"/>-->
+<!--                    <include name="ord"/>-->
+<!--                </run>-->
+<!--            </groups>-->
+
+        <classes>
+            <class name="Main_code.MainCode"/>
+            <class name="Header.Header_Tests"/>
+            <class name="Header.Profile_Tab.Profile_Tab_Tests"/>
+            <class name="Header.Trade_Tab.Trade_Tab_Tests"/>
+            <class name="Header.Products.Products_Tab_Tests"/>
+            <class name="Header.Company_Tab.Company_Tab_Tests"/>
+            <class name="Header.Language_Tab.Language_Tab_Tests"/>
+            <class name="Authorization.Authorization_Tests"/>
+            <class name="Registration.Registration_Tests"/>
+            <class name="Registration.Registration_Tests_Prt_2"/>
+<!--            <class name="Market_page.Market_page"/>-->
+<!--            <class name="Tading_DropDown.TradingDropDown"/>-->
+<!--            <class name="Order_Book.Buy"/>-->
+<!--            <class name="Order_Book.Sell"/>-->
+<!--            <class name="Wallet.Wallet_Currency_List_Appearance"/>-->
+<!--            <class name="Wallet.Wallet_History_Form_Validation"/>-->
+
+        </classes>
+<!--            <method-selectors>-->
+<!--                <method-selector>-->
+<!--                    <selector-class name="Order_Book.Sell"/>-->
+<!--                </method-selector>-->
+<!--            </method-selectors>-->
+        </test>
+
+
+</suite>

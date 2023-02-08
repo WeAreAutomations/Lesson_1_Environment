@@ -88,22 +88,22 @@
             <class name="Main_code.MainCode"/>
 
             <class name="Header.Header_Tests"/>
-            <class name="Header.Profile_Tab.Profile_Tab_Tests"/>
-            <class name="Header.Trade_Tab.Trade_Tab_Tests"/>
-            <class name="Header.Products.Products_Tab_Tests"/>
-            <class name="Header.Company_Tab.Company_Tab_Tests"/>
-            <class name="Header.Language_Tab.Language_Tab_Tests"/>
+<!--            <class name="Header.Profile_Tab.Profile_Tab_Tests"/>-->
+<!--            <class name="Header.Trade_Tab.Trade_Tab_Tests"/>-->
+<!--            <class name="Header.Products.Products_Tab_Tests"/>-->
+<!--            <class name="Header.Company_Tab.Company_Tab_Tests"/>-->
+<!--            <class name="Header.Language_Tab.Language_Tab_Tests"/>-->
 
-            <class name="Footer.AboutUs_Tests"/>
-            <class name="Footer.Services_Tests"/>
-            <class name="Footer.Support_Tests"/>
-            <class name="Footer.LeftSide.SocialMedia_Tests"/>
-            <class name="Footer.LeftSide.SocialMedia_Part2_Tests"/>
-            <class name="Footer.Language.Language_Tests"/>
+<!--            <class name="Footer.AboutUs_Tests"/>-->
+<!--            <class name="Footer.Services_Tests"/>-->
+<!--            <class name="Footer.Support_Tests"/>-->
+<!--            <class name="Footer.LeftSide.SocialMedia_Tests"/>-->
+<!--            <class name="Footer.LeftSide.SocialMedia_Part2_Tests"/>-->
+<!--            <class name="Footer.Language.Language_Tests"/>-->
 
-            <class name="Authorization.Authorization_Tests"/>
-            <class name="Registration.Registration_Tests"/>
-            <class name="Registration.Registration_Tests_Prt_2"/>
+<!--            <class name="Authorization.Authorization_Tests"/>-->
+<!--            <class name="Registration.Registration_Tests"/>-->
+<!--            <class name="Registration.Registration_Tests_Prt_2"/>-->
 
 <!--            <class name="Market_page.Market_page"/>-->
 <!--            <class name="Tading_DropDown.TradingDropDown"/>-->

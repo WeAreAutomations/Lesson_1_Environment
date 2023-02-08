@@ -1,114 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-06T18:19:07 EET" name="WPT" finished-at="2023-02-06T18:21:42 EET" duration-ms="155590">
+  <suite started-at="2023-02-08T15:38:26 EET" name="WPT" finished-at="2023-02-08T15:39:44 EET" duration-ms="77763">
     <groups>
       <group name="mainCode">
-        <method signature="MainCode.mainCode(java.lang.String)[pri:0, instance:Main_code.MainCode@4988d8b8]" name="mainCode" class="Main_code.MainCode"/>
+        <method signature="MainCode.mainCode(java.lang.String)[pri:0, instance:Main_code.MainCode@5b94b04d]" name="mainCode" class="Main_code.MainCode"/>
       </group> <!-- mainCode -->
     </groups>
-    <test started-at="2023-02-06T18:19:07 EET" name="Dex-Trade Regression" finished-at="2023-02-06T18:21:42 EET" duration-ms="155590">
-      <class name="Header.Profile_Tab.Profile_Tab_Tests">
-        <test-method signature="case_1(java.lang.String,java.lang.String)[pri:0, instance:Header.Profile_Tab.Profile_Tab_Tests@68e5eea7]" started-at="2023-02-06T18:20:25 EET" name="case_1" finished-at="2023-02-06T18:20:39 EET" duration-ms="13637" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://dex-trade-stage1.intary.net/account]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://dex-trade-stage1.intary.net/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- case_1 -->
-        <test-method signature="case_2(java.lang.String,java.lang.String)[pri:0, instance:Header.Profile_Tab.Profile_Tab_Tests@68e5eea7]" started-at="2023-02-06T18:20:39 EET" name="case_2" finished-at="2023-02-06T18:20:52 EET" duration-ms="13442" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://dex-trade-stage1.intary.net/account/verification/individual]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://dex-trade-stage1.intary.net/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- case_2 -->
-        <test-method signature="case_3(java.lang.String,java.lang.String)[pri:0, instance:Header.Profile_Tab.Profile_Tab_Tests@68e5eea7]" started-at="2023-02-06T18:20:52 EET" name="case_3" finished-at="2023-02-06T18:21:06 EET" duration-ms="13667" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://dex-trade-stage1.intary.net/account/manage-personal-data]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://dex-trade-stage1.intary.net/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- case_3 -->
-        <test-method signature="case_4(java.lang.String,java.lang.String)[pri:0, instance:Header.Profile_Tab.Profile_Tab_Tests@68e5eea7]" started-at="2023-02-06T18:21:06 EET" name="case_4" finished-at="2023-02-06T18:21:18 EET" duration-ms="11890" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://dex-trade-stage1.intary.net/account/security]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://dex-trade-stage1.intary.net/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- case_4 -->
-        <test-method signature="case_5(java.lang.String,java.lang.String)[pri:0, instance:Header.Profile_Tab.Profile_Tab_Tests@68e5eea7]" started-at="2023-02-06T18:21:18 EET" name="case_5" finished-at="2023-02-06T18:21:31 EET" duration-ms="13455" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://dex-trade-stage1.intary.net/account/referral]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://dex-trade-stage1.intary.net/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- case_5 -->
-        <test-method signature="case_6(java.lang.String,java.lang.String)[pri:0, instance:Header.Profile_Tab.Profile_Tab_Tests@68e5eea7]" started-at="2023-02-06T18:21:31 EET" name="case_6" finished-at="2023-02-06T18:21:42 EET" duration-ms="10796" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://dex-trade-stage1.intary.net/account/api-management]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://dex-trade-stage1.intary.net/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- case_6 -->
-      </class> <!-- Header.Profile_Tab.Profile_Tab_Tests -->
+    <test started-at="2023-02-08T15:38:26 EET" name="Wallet appearance" finished-at="2023-02-08T15:39:44 EET" duration-ms="77763">
       <class name="Main_code.MainCode">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Main_code.MainCode@4988d8b8]" started-at="2023-02-06T18:19:07 EET" name="setUp" finished-at="2023-02-06T18:19:16 EET" duration-ms="9081" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Main_code.MainCode@5b94b04d]" started-at="2023-02-08T15:38:27 EET" name="setUp" finished-at="2023-02-08T15:38:32 EET" duration-ms="5725" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -119,11 +21,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="mainCode(java.lang.String)[pri:0, instance:Main_code.MainCode@4988d8b8]" started-at="2023-02-06T18:19:16 EET" name="mainCode" finished-at="2023-02-06T18:19:36 EET" duration-ms="19864" status="PASS">
+        <test-method signature="mainCode(java.lang.String)[pri:0, instance:Main_code.MainCode@5b94b04d]" started-at="2023-02-08T15:38:32 EET" name="mainCode" finished-at="2023-02-08T15:38:50 EET" duration-ms="18180" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://dex-trade-stage1.intary.net/login]]>
+                <![CDATA[https://dex-trade.com/login]]>
               </value>
             </param>
           </params>
@@ -132,64 +34,64 @@
         </test-method> <!-- mainCode -->
       </class> <!-- Main_code.MainCode -->
       <class name="Header.Header_Tests">
-        <test-method signature="case_1(java.lang.String,java.lang.String)[pri:0, instance:Header.Header_Tests@63070bab]" started-at="2023-02-06T18:19:36 EET" name="case_1" finished-at="2023-02-06T18:19:49 EET" duration-ms="13026" status="PASS">
+        <test-method signature="case_1(java.lang.String,java.lang.String)[pri:0, instance:Header.Header_Tests@6a03bcb1]" started-at="2023-02-08T15:38:50 EET" name="case_1" finished-at="2023-02-08T15:39:02 EET" duration-ms="11860" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://dex-trade-stage1.intary.net/markets]]>
+                <![CDATA[https://dex-trade.com/markets]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[https://dex-trade-stage1.intary.net/]]>
+                <![CDATA[https://dex-trade.com/]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- case_1 -->
-        <test-method signature="case_2(java.lang.String,java.lang.String)[pri:0, instance:Header.Header_Tests@63070bab]" started-at="2023-02-06T18:19:49 EET" name="case_2" finished-at="2023-02-06T18:20:00 EET" duration-ms="11645" status="PASS">
+        <test-method signature="case_2(java.lang.String,java.lang.String)[pri:0, instance:Header.Header_Tests@6a03bcb1]" started-at="2023-02-08T15:39:02 EET" name="case_2" finished-at="2023-02-08T15:39:15 EET" duration-ms="12677" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://dex-trade-stage1.intary.net/free-coins]]>
+                <![CDATA[https://dex-trade.com/free-coins]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[https://dex-trade-stage1.intary.net/]]>
+                <![CDATA[https://dex-trade.com/]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- case_2 -->
-        <test-method signature="case_3(java.lang.String,java.lang.String)[pri:0, instance:Header.Header_Tests@63070bab]" started-at="2023-02-06T18:20:00 EET" name="case_3" finished-at="2023-02-06T18:20:15 EET" duration-ms="14455" status="PASS">
+        <test-method signature="case_3(java.lang.String,java.lang.String)[pri:0, instance:Header.Header_Tests@6a03bcb1]" started-at="2023-02-08T15:39:15 EET" name="case_3" finished-at="2023-02-08T15:39:30 EET" duration-ms="15474" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://dex-trade-stage1.intary.net/wallet]]>
+                <![CDATA[https://dex-trade.com/wallet]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[https://dex-trade-stage1.intary.net/]]>
+                <![CDATA[https://dex-trade.com/]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- case_3 -->
-        <test-method signature="case_4(java.lang.String,java.lang.String)[pri:0, instance:Header.Header_Tests@63070bab]" started-at="2023-02-06T18:20:15 EET" name="case_4" finished-at="2023-02-06T18:20:25 EET" duration-ms="10548" status="PASS">
+        <test-method signature="case_4(java.lang.String,java.lang.String)[pri:0, instance:Header.Header_Tests@6a03bcb1]" started-at="2023-02-08T15:39:30 EET" name="case_4" finished-at="2023-02-08T15:39:44 EET" duration-ms="13790" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://dex-trade-stage1.intary.net/open-orders/1]]>
+                <![CDATA[https://dex-trade.com/open-orders/1]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[https://dex-trade-stage1.intary.net/]]>
+                <![CDATA[https://dex-trade.com/]]>
               </value>
             </param>
           </params>
@@ -197,6 +99,6 @@
           </reporter-output>
         </test-method> <!-- case_4 -->
       </class> <!-- Header.Header_Tests -->
-    </test> <!-- Dex-Trade Regression -->
+    </test> <!-- Wallet appearance -->
   </suite> <!-- WPT -->
 </testng-results>

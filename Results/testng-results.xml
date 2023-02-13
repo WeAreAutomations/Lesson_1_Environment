@@ -2,15 +2,15 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-08T15:38:26 EET" name="WPT" finished-at="2023-02-08T15:39:44 EET" duration-ms="77763">
+  <suite started-at="2023-02-13T11:53:32 EET" name="WPT" finished-at="2023-02-13T11:55:01 EET" duration-ms="89130">
     <groups>
       <group name="mainCode">
-        <method signature="MainCode.mainCode(java.lang.String)[pri:0, instance:Main_code.MainCode@5b94b04d]" name="mainCode" class="Main_code.MainCode"/>
+        <method signature="MainCode.mainCode(java.lang.String)[pri:0, instance:Main_code.MainCode@2002fc1d]" name="mainCode" class="Main_code.MainCode"/>
       </group> <!-- mainCode -->
     </groups>
-    <test started-at="2023-02-08T15:38:26 EET" name="Wallet appearance" finished-at="2023-02-08T15:39:44 EET" duration-ms="77763">
+    <test started-at="2023-02-13T11:53:32 EET" name="Wallet appearance" finished-at="2023-02-13T11:55:01 EET" duration-ms="89130">
       <class name="Main_code.MainCode">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Main_code.MainCode@5b94b04d]" started-at="2023-02-08T15:38:27 EET" name="setUp" finished-at="2023-02-08T15:38:32 EET" duration-ms="5725" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Main_code.MainCode@2002fc1d]" started-at="2023-02-13T11:53:32 EET" name="setUp" finished-at="2023-02-13T11:53:43 EET" duration-ms="10360" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -21,7 +21,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="mainCode(java.lang.String)[pri:0, instance:Main_code.MainCode@5b94b04d]" started-at="2023-02-08T15:38:32 EET" name="mainCode" finished-at="2023-02-08T15:38:50 EET" duration-ms="18180" status="PASS">
+        <test-method signature="mainCode(java.lang.String)[pri:0, instance:Main_code.MainCode@2002fc1d]" started-at="2023-02-13T11:53:43 EET" name="mainCode" finished-at="2023-02-13T11:54:03 EET" duration-ms="20528" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -34,7 +34,7 @@
         </test-method> <!-- mainCode -->
       </class> <!-- Main_code.MainCode -->
       <class name="Header.Header_Tests">
-        <test-method signature="case_1(java.lang.String,java.lang.String)[pri:0, instance:Header.Header_Tests@6a03bcb1]" started-at="2023-02-08T15:38:50 EET" name="case_1" finished-at="2023-02-08T15:39:02 EET" duration-ms="11860" status="PASS">
+        <test-method signature="case_1(java.lang.String,java.lang.String)[pri:0, instance:Header.Header_Tests@ed7f8b4]" started-at="2023-02-13T11:54:03 EET" name="case_1" finished-at="2023-02-13T11:54:17 EET" duration-ms="13691" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -50,7 +50,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- case_1 -->
-        <test-method signature="case_2(java.lang.String,java.lang.String)[pri:0, instance:Header.Header_Tests@6a03bcb1]" started-at="2023-02-08T15:39:02 EET" name="case_2" finished-at="2023-02-08T15:39:15 EET" duration-ms="12677" status="PASS">
+        <test-method signature="case_2(java.lang.String,java.lang.String)[pri:0, instance:Header.Header_Tests@ed7f8b4]" started-at="2023-02-13T11:54:17 EET" name="case_2" finished-at="2023-02-13T11:54:29 EET" duration-ms="12548" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -66,7 +66,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- case_2 -->
-        <test-method signature="case_3(java.lang.String,java.lang.String)[pri:0, instance:Header.Header_Tests@6a03bcb1]" started-at="2023-02-08T15:39:15 EET" name="case_3" finished-at="2023-02-08T15:39:30 EET" duration-ms="15474" status="PASS">
+        <test-method signature="case_3(java.lang.String,java.lang.String)[pri:0, instance:Header.Header_Tests@ed7f8b4]" started-at="2023-02-13T11:54:29 EET" name="case_3" finished-at="2023-02-13T11:54:45 EET" duration-ms="15266" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -82,7 +82,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- case_3 -->
-        <test-method signature="case_4(java.lang.String,java.lang.String)[pri:0, instance:Header.Header_Tests@6a03bcb1]" started-at="2023-02-08T15:39:30 EET" name="case_4" finished-at="2023-02-08T15:39:44 EET" duration-ms="13790" status="PASS">
+        <test-method signature="case_4(java.lang.String,java.lang.String)[pri:0, instance:Header.Header_Tests@ed7f8b4]" started-at="2023-02-13T11:54:45 EET" name="case_4" finished-at="2023-02-13T11:55:01 EET" duration-ms="16612" status="PASS">
           <params>
             <param index="0">
               <value>

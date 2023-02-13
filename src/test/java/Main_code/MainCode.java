@@ -1,8 +1,7 @@
 package Main_code;
 
 
-//import FooterPack.FooterClass;
-//import FooterPack.FooterMethods;
+
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
@@ -21,10 +20,9 @@ import java.io.IOException;
 
 import static java.time.Duration.ofSeconds;
 
-//@Test(groups = {"mainCode"})
 public class MainCode {
 
-    // Инициализируем Webdriver при помощи метода public Static, для автоматического использования в других классах
+    // Инициализируем Webdriver при помощи модификатора доступа public Static, для автоматического использования в других классах
     public static WebDriver  driver;
 
     @BeforeMethod
